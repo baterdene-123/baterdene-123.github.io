@@ -1,0 +1,434 @@
+body{
+	margin:0;
+	padding:0;
+}
+*{
+  box-sizing:border-box;
+}
+*{
+  border-radius:0.5rem;
+}
+*{
+  text-decoration:none;
+}
+*{
+  list-style:none;
+}
+.left{
+	float:left;
+}
+.right{
+	float:right;
+}
+.container{
+	width:100%;
+	height:6000px;
+}
+.head{
+	width:100%;
+	height:450px;
+	background-color:white;
+	background-image:url("https://lp-cms-production.imgix.net/2019-06/stock-photo-budapest-at-night-part-iii-76226665.jpg?fit=crop&w=1680&h=620&auto=format&blendMode=multiply&blend=%23ccc&ixlib=react-8.6.4&w=1680&h=620&dpr=1");
+	background-size:cover;
+}
+.garchig{
+	width:100%;
+	height:70px;
+	padding-top:3px;
+}
+.garchig ul{
+	display:flex;
+	justify-content:space-around;
+	
+}
+.garchig ul li a{
+	 color:#fff;
+	 font-size:20px;
+	 font-weight:bold;
+	 text-transform:uppercase;
+	 font-family:Arial,serif,sans-serif;
+	 padding:10px 15px;
+	 display:block;
+	 padding-right:100px;
+	 text-decoration:none;
+}
+.garchig ul li a:hover{
+	background-color:black;
+}
+.as{
+	width:100%;
+	height:70px;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
+.as h1{
+    color:#fff;
+	font-size: 3rem;
+    font-weight: 600;
+    line-height: 1.375;
+}
+.ad{
+	width:100%;
+	height:40px;
+	display:flex;
+	justify-content:center;
+	border-radius:10px;
+}
+.head-1{	
+	width:100%;
+	height:370px;
+	margin:0px auto;
+	display:flex;
+	justify-content:space-around;
+	margin-top:60px;
+ }
+ .small{
+	width:20%;
+	height:370px;
+	background-color:white;
+	text-align:center;
+ }
+ .small img{
+	width:100%;
+	height:270px;
+	object-fit:cover;
+ }
+ .small h2{
+	color:#2c3543;
+ }
+ .head-2{
+	 width:95%;
+	 height:800px;
+	 margin:0 auto;
+ }
+ .zvvn{
+	 width:50%;
+	 height:92.5%;
+ }
+ .baruun{
+	 width:50%;
+	 height:92.5%;
+ }
+ .baruun img{
+	padding-left:10px;
+ }
+ .exp{	 
+	 height:10px;
+     color:#277bba;
+	 padding-top:10px;
+ }
+ .zvvn h2{
+	 padding-bottom:-10px;
+ }
+ .jijig-2{
+	 width:100%;
+	 height:130px;
+	 margin:20px auto;
+	 margin-top:31px;
+ }
+ .jijig-2 img{
+	 width:100%;
+	 float:right;
+	 height:100%;
+	 object-fit:cover;
+ }
+ .zvvn-1{
+	width:78%;
+	height:100%;
+	text-align:center;
+	padding-top:30px;
+	color:inherit;
+}
+.baruun-1{
+	width:22%;
+	height:100%;
+}
+.head-3{
+	width:95%;
+	height:700px;
+	margin:10px auto;
+}
+.reclam{
+	width:70%;
+	height:700px;
+	background-color:black;
+}
+.feat{
+	text-align:center;
+	width:100%;
+	height:100px;
+}
+.reclam h1{
+	color:#b3b3cc;
+}
+.reclam h4{
+	color:#6b727b;
+	padding-right:900px;
+}
+.reclam h3{
+	color:#b3b3cc;
+	font-size:20px;
+	text-align:center;
+}
+.reclam img{
+	width:100%;
+	height:70%;
+}
+.reclam-1{
+	width:29%;
+	height:500px;
+}
+.reclam-1 img{
+	width:100%;
+	height:100%;
+	object-fit:cover;
+}
+.head-4{
+    width:95%;
+	height:270px;
+	margin:20px auto;
+}
+.travel{
+	width:100%;
+	height:70px;
+	display:flex;
+	align-items:center;
+	padding-left:30px;
+}
+.travel-1{
+	width:100%;
+	height:200px;
+	display:flex;
+	justify-content:space-between;
+	text-align:center;
+	padding-top:50px;
+}
+.head-5{
+	width:95%;
+	height:750px;
+	margin:10px auto;
+}
+.travel-2{	
+	width:100%;
+	height:80px;
+	background-color:white;
+	text-align:center;
+	display:flex;
+	align-items:center;
+ }
+ .travel-2 h1{
+	color:#2c3543;
+	font-family:Benton Sans,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+ }
+ .baruun-3{
+	width:35%;
+	height:89%;
+	position:relative;
+ }
+ .baruun-3 img{
+	width:100%;
+	height:100%;
+	object-fit:cover;
+ }
+ .hawaii{
+	width:100%;
+	height:100px;
+	background-color:rgba(0,0,0,0.5);
+	position:absolute;
+	bottom:0;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+ }
+ .hawaii h1{
+	color:#fff;
+ }
+ .zvvn-3{	
+	width:63%;
+	height:320px;
+	background-color:black;
+	position:relative;
+	border-radius:5 rem;
+  }
+ .zvvn-3 img{
+	width:100%;
+	height:100%;
+	object-fit:cover;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,.12),0 2px 4px 0 rgba(0,0,0,.08);
+ }
+  .zvvn-dood{
+	width:63%;
+	height:320px;
+	margin-top:25px;
+  }
+  .zvvn-hajuu{
+	width:49%;
+	height:320px;
+	background-color:blue;
+	position:relative;
+  }
+  .zvvn-hajuu img{
+	width:100%;
+	height:100%;
+	object-fit:cover;
+  }
+  .head-6{
+	width:95%;
+	height:900px;
+	margin:10px auto;
+  }
+  .travel-3{ 	
+	width:100%;
+	height:400px;
+ }
+.japan{
+	width:100%;
+	height:100%;
+}
+.japan-1{
+	width:50%;
+	height:100%;
+}
+.japan-1 img{
+	width:100%;
+	height:100%;
+	object-fit:cover;
+}
+.japan-2{
+	text-align:center;
+	padding-top:100px;
+}
+.travel-4{
+	width:100%;
+	height:410px;
+	display:flex;
+	justify-content:space-between;
+}
+.japan-3{
+	width:23.5%;
+	height:100%;
+	margin-top:30px;
+}
+.japan-3 img{
+	width:100%;
+	height:250px;
+	object-fit:cover;
+}
+.japan-3 h3{
+	color: #2c3543;
+	font-family: Benton Sans,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+.japan-3 {
+	font-family: Benton Sans,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+	color: #2c3543;
+	text-align:center;
+}
+.head-7{
+	width:95%;
+	height:400px;
+	margin:10px auto;
+}
+.japan-5{
+	width:49%;
+	height:400px;
+	text-align:center;
+	font-family: Miller Daily,Georgia,Times,Times New Roman,serif;
+	color: #6b727b;
+	font-style: italic;
+}
+.japan-5 h1{
+	color: #2c3543;
+	font-family: Benton Sans,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+.japan-8{
+	width:100%;
+	height:50px;
+	margin-top:50px;
+}
+.japan-10{
+	width:100%;
+	height:50px;
+}
+.japan-10 input{
+	width:100%;
+	height:100%;
+	font-size:20px;
+	color:white;
+}
+.japan-6{
+	width:49%;
+	height:100%;
+}
+.japan-6 img{
+	width:100%;
+	height:100%;
+	object-fit:cover;
+}
+.head-8{
+    width:100%;
+	height:400px;
+	background-image:url(https://lp-cms-production.imgix.net/2020-03/travel-insurance-feature.jpg?fit=crop&auto=format&blend=%23ccc&blendMode=multiply&crop=entropy&h=420&w=1680&ixlib=react-8.6.4&w=1680&h=420&dpr=1);
+	background-size:cover;
+	align-items:center;
+}
+.head-8 h1{
+	color: #fff;
+	font-size: 3rem;
+    font-weight: 600;
+    line-height: 1.375;
+    font-family: Benton Sans,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+	padding-top:100px;
+	margin-left:99px;
+}
+.head-8 h3{
+	color: #fff;
+	font-size: 1.5rem;
+    line-height: 1.5;
+	font-family: Benton Sans,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+	margin-top:-25px;
+	margin-left:100px;
+}
+.head-9{
+	width:100%;
+	height:400px;
+	margin:90px auto;
+	display:flex;
+	justify-content:space-between;
+}
+.doodoh-1{
+	width:15%;
+	height:400px;
+	color: #2c3543;
+	font-family: Benton Sans,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+	
+}
+.doodoh-1 h3{
+	margin-left:40px;
+	color: #2c3543;
+    font-family: Benton Sans,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+.doodoh-1 ul li{
+	margin-top:4px;
+}
+.head-10{
+	width:95%;
+	height:200px;
+	margin:0px auto;
+	display:flex;
+	justify-content:space-between;
+}
+.logo-1{
+	width:10%;
+	height:40px;
+}
+.head-10 svg{
+	width:100%;
+	height:100%;
+	font-family: Benton Sans,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+	font-size: 2rem;
+	border:5px solid #a3a3c2;
+	border-radius:3rem;
+	border-top:5px;
+	border-bottom:5px;
+ }
