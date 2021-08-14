@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="piona.css">
+</head>
+<body>
+    <!-- header -->
+    <header class="header">
+        <nav class="navbar navbar-expand-lg  bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Bat-erdene</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                 <span></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="file:///C:/biy%20daalt/index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="file:///C:/biy%20daalt/gallery.html">Gallery</a>
+                  </li>
+                  <!-- <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Services
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                 </li> -->
+                 <li class="nav-item">
+                 <a class="nav-link" href="file:///C:/biy%20daalt/piona/piona.html">Game</a>
+                 </li>
+                 </li>
+                 <li class="nav-item">
+                 <a class="nav-link" href="#">Purchase</a>
+                </li>
+                 <li class="nav-item">
+                    <a class="nav-link" href="#">Contact usy</a>
+                   </li>
+                    </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+     </header>
+    <!-- header tugsgul -->
+     <section id="image" class="w-full h-screen flex justify-center items-center bg-red-400">
+         <div class="pianoContainer overflow-hidden w-3/6 h-80 bg-white flex rounded-3xl border-black border-r-2">
+             <div id='A' class="whiteButton hover:bg-gray-400 w-1/5 h-full border-black border-r-2"></div>
+             <div id='B' class="whiteButton w-1/5 h-full border-black border-r-2 relative">
+                 <div id="Ab"class="blackButton hover:bg-gray-400 border border-black w-2/4 h-3/5 bg-black transform -translate-x-2/4"></div>
+                </div>
+             <div id='C' class="whiteButton w-1/5 h-full border-black border-r-2">
+                 <div id="Bb" class="blackButton border border-black w-2/4 h-3/5 bg-black transform -translate-x-2/4"></div>
+                </div>
+             <div id='D' class="whiteButton w-1/5 h-full border-black border-r-2"></div>
+             <div id='E' class="whiteButton w-1/5 h-full border-black border-r-2">
+                 <div id="Db" class="blackButton border border-black w-2/4 h-3/5 bg-black transform -translate-x-2/4"></div>
+                </div>
+             <div id='F' class="whiteButton w-1/5 h-full border-black border-r-2">
+                 <div id="Eb" class="blackButton border border-black w-2/4 h-3/5 bg-black transform -translate-x-2/4"></div>
+                </div>
+             <div id='G' class="whiteButton w-1/5 h-full border-black border-r-2">
+                 <div id="Gb" class="blackButton border border-black w-2/4 h-3/5 bg-black transform -translate-x-2/4"></div>
+                </div>
+             <div id='Gb' class="whiteButton w-1/5 h-full border-black border-r-2"></div>
+             <div id='Db' class="whiteButton w-1/5 h-full border-black border-r-2">
+                 <div id="A"class="blackButton border border-black w-2/4 h-3/5 bg-black transform -translate-x-2/4"></div>
+                </div>
+             <div id='Bb' class="whiteButton w-1/5 h-full border-black">
+              <div id="E" class="blackButton border border-black w-2/4 h-3/5 bg-black transform -translate-x-2/4"></div>
+            </div>
+        </div>   
+         
+
+          <div class="tonesContainer">
+              <audio id="noteA" src="./note/notes_A.mp3"></audio>
+              <audio id="noteB" src="./note/notes_B.mp3"></audio>
+              <audio id="noteC" src="./note/notes_C.mp3"></audio>
+              <audio id="noteD" src="./note/notes_D.mp3"></audio>
+              <audio id="noteE" src="./note/notes_E.mp3"></audio>
+              <audio id="noteF" src="./note/notes_F.mp3"></audio>
+              <audio id="noteG" src="./note/notes_G.mp3"></audio>
+              <audio id="noteGb" src="./note/notes_Gb.mp3"></audio>
+              <audio id="noteAb" src="./note/notes_Ab.mp3"></audio>
+              <audio id="noteBb" src="./note/notes_Bb.mp3"></audio>
+              <audio id="noteDb" src="./note/notes_Db.mp3"></audio>
+              <audio id="noteEb" src="./note/notes_Eb.mp3"></audio>
+              <audio id="noteGb" src="./note/notes_Gb.mp3"></audio>
+          </div>
+
+
+
+     </section>
+
+
+
+     <script src="script.js"></script>
+</body>
+</html>
